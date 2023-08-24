@@ -1,0 +1,133 @@
+html, body{
+	width: 100%;
+	height: 100%
+	font-family: 'Bricolage Grotesque', sans-serif;
+	background: url(pexels-christina-morillo-1181376.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+.font-text{
+  font-family: 'Times New Roman';
+
+}
+/*.div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: tomato;
+  height: 90vh;
+  max-height: 90vw;
+  width: 90vw;
+  max-width: 90vh;
+  transform: translate(-50%, -50%);
+}
+*/
+/*
+.trans{
+  opacity: 0.7;
+  border-radius: 20px;
+}
+*/
+
+#boox{
+  width: 60vh;
+  /*color: white;*/
+  background-color: #443A56;
+  margin-top: 0px;
+  position: absolute;
+  opacity: 0.5;
+  border-radius: 20px;
+  right: 0;  
+  padding-bottom: 200%;
+  
+}
+
+
+
+/*
+#boox::after {
+  content: '';
+  display: block;
+
+}*/
+
+#box {
+  width: 60vh;
+  color: white;
+  /*background-color: #443A56;*/
+  margin-top: 4rem;
+  margin-bottom: 70%;
+  position: absolute;
+  cursor: context-menu;
+  /*top: 70%;*/
+  right: 0;
+  /*padding-bottom: 60%;*/
+  display: block;
+  /*transform: translateY(-50%);*/
+}
+
+/*.right-div {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    
+   
+}*/
+/*
+#box::after {
+  content: '';
+  padding-bottom: 110%;
+  display: block;
+
+}
+*/
+
+.h2{
+	font-size: 3rem;
+	color: #780ED8;
+	text-transform: uppercase;
+}
+
+.contentPara{
+  color: white;
+ 
+}
+
+.gg{
+   font-size: 1rem;
+}
+
+.btn{
+  font-weight: 700;
+  color: white;
+  margin: 30px 0px 0px;
+  padding: 13px 30px 15px;
+  background-color: #9364BC;
+  border-radius: 300px;
+  text-transform: uppercase;
+
+}
+
+
+/*.btn{
+
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
+.btn-primary{
+	background-color: #F05F44;
+	border-color: #F05F44;
+}*/
+
+.btn:hover{
+	background-color: #780ED8 ;
+	border-color: #780ED8;
+	border-width: 4px;
+}
